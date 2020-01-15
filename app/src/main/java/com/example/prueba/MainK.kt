@@ -3,11 +3,9 @@ package com.example.prueba
 
 fun main(args: Array<String>)
 {
-    fun saludar(vararg nombres:String){
-        for (nombre in nombres){
-            println(nombre)
-        }
+    class X(){
+        operator fun invoke(n:Int):Int = n + 1
     }
 
-    saludar("carlos","oooooooooooo","suarez")
+    println(X()(8))
 }
