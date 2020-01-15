@@ -9,5 +9,5 @@ fun main(args: Array<String>)
         }
     }
 
-    saludar("carlos","jhfjhfjhdfjhfjjdfhjfhjdhfj","suarez")
+    saludar("carlos","oooooooooooo","suarez")
 }
